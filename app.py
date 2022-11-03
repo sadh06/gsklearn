@@ -60,8 +60,9 @@ elif classifier_name == 'SVM':
     st.success('The output is {}'.format(output))   
 
 elif classifier_name == 'KNN':
-    model = pickle.load(open('knn_model.sav','rb'))
-    output = model.predict(input_df)
-    output = str(output)
+    st.write("skip for now")
+    #model = pickle.load(open('knn_model.sav','rb'))
+    #output = model.predict(input_df)
+    #output = str(output)
 
     st.success('The output is {}'.format(output))       
